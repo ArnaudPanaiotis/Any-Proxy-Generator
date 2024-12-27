@@ -2,7 +2,7 @@
  * jQuery Placeholder Plugin v2.3.1
  * https://github.com/mathiasbynens/jquery-placeholder
  *
- * Copyright 2011, 2015 Mathias Bynens
+ * Copyright 2024 Arnaud Panaïotis
  * Released under the MIT license
  */
 (function(factory) {

@@ -4,10 +4,13 @@ const MODES = {
   REVIEW : "review"
 }
 
-const SCRYFALL_SEARCH_URL = "https://api.scryfall.com/cards/";
+const syntaxText = `Get URL of the image you want to print, right click then:
+- copy URL of the picture
+- open picture in new tab, then copy the URL
+You may prefix the URL of the card with quantity.
+You may use a file from your disk.
 
-const syntaxText = `Black Lotus (single card)
-4 Counterspell (creates 4 cards)
-Shatterskull Smashing (creates a card for each face)
-Jace, Vryn's Prodigy -checklist (creates a single 'checklist' style card enabled by the -checklist or -cl flag)
-LEB/233 -code (finds card #233 in Limeted Edition Beta, enabled by the -code or -cd flag)`;
+
+https://panaiotis.fr/Any-Proxy-Generator/img/terraforming_mars_16psyche.webp
+3 https://panaiotis.fr/Any-Proxy-Generator/img/altered_scarabot_token.jpg
+2 E:\Documents\Any-Proxy-Generator\img\altered_booda_token.jpg`;

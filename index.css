@@ -9,7 +9,7 @@ form {
 }
 
 .home-icon {
-  height: 40px;
+  height: 60px;
   width: auto;
   margin-right: 15px;
 }
@@ -62,32 +62,9 @@ ul {
   min-height: 329px;
 }
 
-.checklist {
-  position: relative;
-}
-
 img.normal {
   width: 235px;
   height: 329px;
-}
-
-.checklist-front, .checklist-back {
-  width: 164.5px;
-  height: 235px;
-}
-
-.checklist-front {
-  position: absolute;
-  transform: rotate(270deg);
-  top: 128.5px;
-  left: 35px;
-}
-
-.checklist-back {
-  position: absolute;
-  transform: rotate(270deg);
-  left:35px;
-  top: -35.5px;
 }
 
 @media not print {
@@ -168,17 +145,5 @@ img.normal {
 
   img.normal {
     border-radius: 7px;
-  }
-
-  .checklist > img.normal {
-    display: none;
-  }
-
-  .checklist-front {
-    border-radius: 7px 0 0 7px;
-  }
-
-  .checklist-back {
-    border-radius: 0 7px 7px 0;
   }
 }
