@@ -1,6 +1,6 @@
 # MTG-Proxy-Generator
 ## Try the Live App Below:
-[Any Proxy Generator](https://panaiotis.fr/MTG-Proxy-Generator/)
+[Any Proxy Generator](https://panaiotis.fr/Any-Proxy-Generator/)
 ## How to Use:
 Bored of lokking for a new website each time you want to play a proxy?
 Now you can print any card using US format from this site, which can be from a trading card game or a board game.
