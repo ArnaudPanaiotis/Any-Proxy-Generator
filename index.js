@@ -24,7 +24,7 @@ function renderApplication(state) {
 	else if(state.mode === MODES.EDIT) {
 
 		$(".js-queryList").attr("placeholder-x", 
-		`Supported syntax:\n\n` + syntaxText);
+		`Exemple input:\n\n` + syntaxText);
 
 		$(".js-queryList").placeholder();
 
@@ -38,6 +38,7 @@ function renderApplication(state) {
 			}
 
 			$(".js-results").empty();
+			$(".js-results").append(`<div class="left-align"><p>To print this page use <b>Ctrl + P</b>.</p></div><br/>`);
 			addProgressBar();
 
 			//generate a list of query...
@@ -129,8 +130,8 @@ function buildSpoiler(deckList) {
   for(let i = 0; i < deckList.length; i++) {
     
     const card = deckList[i];
-    let cardDivs, cardDiv1, cardDiv2
-    
+    let cardDivs, cardDiv1, cardDiv2;
+		
     // find existing cardDiv(s)
     cardDivs = $(`*[data-card="${card.name}-${i}"].card-div`);
     
